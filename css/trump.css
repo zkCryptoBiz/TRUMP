@@ -1,0 +1,1160 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.body {
+  background-color: #8ae3ff;
+}
+
+.section_hero {
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.clouds {
+  opacity: .6;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200vw;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.clouds_in {
+  background-image: url('../images/about_clouds.png');
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: 100%;
+  width: 100vw;
+  height: 100%;
+}
+
+.chara_hero {
+  height: 75%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.white_house {
+  height: 50%;
+  position: absolute;
+  inset: auto auto 3%;
+}
+
+.grass_hero {
+  background-image: url('../images/grass_hero.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.logo_hero {
+  width: 80%;
+  margin-top: 60px;
+  position: absolute;
+  inset: 0% auto auto;
+}
+
+.section_about {
+  background-color: #8ae3ff;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.h1 {
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000;
+  font-family: Olive Days, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+}
+
+.chara_about {
+  width: 550px;
+  margin-top: 0;
+  position: relative;
+}
+
+.pupil_about {
+  z-index: 2;
+  background-color: #424162;
+  border: 3px solid #000;
+  justify-content: center;
+  align-items: flex-start;
+  width: 650px;
+  height: 150px;
+  display: flex;
+  position: relative;
+}
+
+.about_block {
+  background-color: #725ac0;
+  border: 3px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  margin-top: 0;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  transform: rotate(-9deg);
+}
+
+.pupil_lines {
+  border: 3px solid #ff5454;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  display: flex;
+}
+
+.pupil_stars {
+  background-color: #725ac0;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  position: absolute;
+  inset: 0% auto auto;
+}
+
+.pupil_date {
+  background-color: #725ac0;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.about_title {
+  background-color: #ef5c4c;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text-block {
+  color: #fff;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, sans-serif;
+  font-size: 20px;
+}
+
+.ticker {
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Olive Days, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.about_sub {
+  color: #fff;
+  font-family: Changa One, Impact, sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+._2024 {
+  color: #fff;
+  font-family: Changa One, Impact, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.stars {
+  height: 50%;
+}
+
+.pupil_wood {
+  background-color: #784625;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+  width: 150px;
+  height: 250px;
+  position: relative;
+}
+
+.flag_about {
+  z-index: 5;
+  background-image: url('../images/flag_about.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 200px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.block_chara_about {
+  justify-content: center;
+  align-items: center;
+  margin-top: -58px;
+  display: flex;
+  position: relative;
+}
+
+.bullet {
+  height: 15px;
+  position: absolute;
+}
+
+.bullet2 {
+  height: 10px;
+  position: absolute;
+  top: 165.025px;
+}
+
+.bullet3 {
+  height: 15px;
+  position: absolute;
+  bottom: 76.525px;
+}
+
+.section_tokenomics {
+  background-color: #0d2b6c;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: -15px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  position: relative;
+  top: -15px;
+}
+
+.chara_tokenomics {
+  width: 500px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.floor_tokenomics {
+  background-color: #071e50;
+  justify-content: center;
+  align-items: flex-end;
+  height: 55%;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.block_tokenomics {
+  background-color: #2453ba;
+  border: 3px solid #000;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 650px;
+  height: auto;
+  padding: 15px;
+  display: flex;
+  position: relative;
+}
+
+.floor_in {
+  background-color: #021339;
+  width: 100%;
+  height: 50%;
+}
+
+.tokenomics_details {
+  background-color: #103587;
+  border: 2px solid #000;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.h2 {
+  color: #fff;
+  font-family: Olive Days, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.tokenomics_in {
+  border: 2px solid #ff2929;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 15px 15px 0;
+}
+
+.separator_space {
+  background-color: #7d90ba;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sep_in {
+  background-color: #404d74;
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section_space {
+  background-color: #000;
+  background-image: url('../images/stars.gif');
+  background-position: 50%;
+  background-size: auto;
+  background-attachment: fixed;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  display: flex;
+  position: relative;
+}
+
+.div-block {
+  background-color: #12234a;
+  width: 100%;
+  height: 100%;
+}
+
+.planet {
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.trump_furie_space {
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+}
+
+.furie_space {
+  height: 450px;
+  position: relative;
+  left: 80px;
+}
+
+.trump_space {
+  height: 500px;
+  position: relative;
+  right: 80px;
+}
+
+.block_ca {
+  z-index: 15;
+  background-color: #424162;
+  border: 4px solid #000;
+  border-left: 0 #000;
+  border-right: 0 #000;
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.ca_in {
+  background-color: #1b1b30;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.ca {
+  color: #8c8cbc;
+  font-family: Olive Days, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.header {
+  z-index: 50;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.menu {
+  background-color: #283459;
+  border: 2px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 7px;
+  display: flex;
+}
+
+.menu_link {
+  background-color: #415287;
+  border: 2px solid #000;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  font-family: Olive Days, sans-serif;
+  display: flex;
+}
+
+.menu_link:hover {
+  background-color: #f23135;
+}
+
+.city_bg {
+  background-image: url('../images/city_bg.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 35%;
+  margin-bottom: 150px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.city_fg {
+  background-image: url('../images/city_fg.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 30%;
+  margin-bottom: 150px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.andy {
+  z-index: 5;
+  flex: 0 auto;
+  height: 450px;
+  display: block;
+  position: absolute;
+}
+
+.how_block {
+  background-color: #2453ba;
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 650px;
+  height: 100px;
+  margin-top: 25px;
+  padding: 15px;
+}
+
+.how_in {
+  background-color: #103382;
+  border: 2px solid #000;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.h3 {
+  color: #fff;
+  font-family: Olive Days, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.how {
+  margin-top: 50px;
+}
+
+.section_join {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 30px;
+  display: flex;
+  position: relative;
+}
+
+.trump_vote {
+  height: 600px;
+  position: relative;
+}
+
+.menu_footer {
+  z-index: 10;
+  background-color: #283459;
+  border: 2px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18px;
+  padding: 17px 7px;
+  display: flex;
+  position: relative;
+}
+
+.block_para {
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  position: relative;
+}
+
+.paragraph {
+  color: #0e3f4e;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Olive Days, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.white_house_footer {
+  height: 50%;
+  display: block;
+  position: absolute;
+  inset: auto auto 15%;
+}
+
+.footer_floor {
+  background-color: #157c4c;
+  height: 21%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.flag {
+  z-index: 0;
+  position: relative;
+}
+
+.flash {
+  opacity: .52;
+  mix-blend-mode: normal;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.flash_left {
+  background-image: radial-gradient(circle closest-corner at 0%, #fff 50%, #0000);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
+}
+
+.flash_right {
+  background-image: radial-gradient(circle closest-corner at 100%, #fff 51%, #0000);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
+}
+
+.menu_mobile {
+  display: none;
+}
+
+.mobile_link {
+  background-color: #415287;
+  border: 2px solid #000;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  font-family: Olive Days, sans-serif;
+  display: flex;
+}
+
+.mobile_link:hover {
+  background-color: #f23135;
+}
+
+.image {
+  height: 70%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.section_about-2 {
+  z-index: 10;
+  background-color: #4556e9;
+  background-image: linear-gradient(#000746, #0000);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  display: flex;
+  position: relative;
+}
+
+.h1-2 {
+  color: #fdb404;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-family: Olive Days, sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.block_para-2 {
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  margin-top: 50px;
+  display: flex;
+  position: static;
+}
+
+.para {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Olive Days, sans-serif;
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.trump_about {
+  height: 600px;
+  margin-top: 50px;
+}
+
+.trump_cyber {
+  pointer-events: auto;
+  height: 325px;
+  position: absolute;
+  inset: auto auto -4%;
+}
+
+.h1-3 {
+  color: #fdb404;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-family: Olive Days, sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.h2-2 {
+  color: #ffe0ba;
+  font-family: Olive Days, sans-serif;
+  font-size: 20px;
+}
+
+.block_tokenomics-2 {
+  background-color: #dab85c;
+  border: 3px solid #000;
+  border-top-width: 8px;
+  border-radius: 20px;
+  width: 650px;
+  height: auto;
+  margin-top: 50px;
+  padding: 15px;
+  position: relative;
+}
+
+.section_tokenomics-2 {
+  background-color: #4051de;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  display: flex;
+  position: relative;
+}
+
+.tokenomics_in-2 {
+  background-color: #f7931a;
+  border: 2px solid #ffc37a;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px 15px 250px;
+  display: flex;
+}
+
+.tokenomics_floor {
+  background-color: #3041a0;
+  height: 200px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.grass_tokenomics {
+  background-image: url('../images/tokenomics_grass.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.tokenomics_details-2 {
+  background-color: #c6741a;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.section_join-2 {
+  background-color: #283c8e;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  display: flex;
+  position: relative;
+}
+
+.floor_footer {
+  background-color: #1a2a6f;
+  height: 350px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.h1-4 {
+  color: #fdb404;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-family: Olive Days, sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.block_socials {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+.socials_footer {
+  color: #5f4300;
+  background-color: #fdb404;
+  border: 2px solid #000;
+  border-bottom-width: 4px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 45px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  padding: 0;
+  font-family: Olive Days, sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  display: flex;
+}
+
+.socials_footer:hover {
+  background-color: #ffde8e;
+  border-top-width: 4px;
+  border-bottom-width: 2px;
+}
+
+.block_trum {
+  z-index: 1;
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  inset: auto auto 0%;
+}
+
+.trump_hero {
+  height: 100%;
+}
+
+.trumpeyes {
+  mix-blend-mode: screen;
+  position: absolute;
+  inset: 0%;
+}
+
+.carousel {
+  background-color: #293282;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .chara_hero {
+    width: 90%;
+    height: auto;
+    bottom: 11%;
+  }
+
+  .h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  .h1-2 {
+    text-align: center;
+  }
+
+  .trump_cyber {
+    height: 300px;
+  }
+
+  .h1-3, .h1-4 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .chara_hero {
+    width: 95%;
+    bottom: 0%;
+  }
+
+  .white_house {
+    bottom: -9%;
+  }
+
+  .h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .chara_about {
+    width: 400px;
+  }
+
+  .pupil_about, .chara_tokenomics, .block_tokenomics {
+    width: 90%;
+  }
+
+  .furie_space, .trump_space {
+    height: 350px;
+  }
+
+  .ca {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu_link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .how_block {
+    width: 100%;
+  }
+
+  .h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .how {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    display: flex;
+  }
+
+  .trump_vote {
+    width: 90%;
+    height: auto;
+  }
+
+  .menu_footer {
+    flex-flow: column;
+    width: 90%;
+  }
+
+  .block_para {
+    width: 95%;
+  }
+
+  .flag {
+    width: 90%;
+  }
+
+  .flash {
+    pointer-events: none;
+  }
+
+  .menu_mobile {
+    z-index: 80;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    inset: 0%;
+  }
+
+  .mobile_link {
+    margin: 10px;
+    position: absolute;
+    inset: 0% auto auto 0%;
+  }
+
+  .mobile_link.x {
+    inset: 0% 0% auto auto;
+  }
+
+  .mobile_link.dex {
+    inset: auto auto 0% 0%;
+  }
+
+  .mobile_link.buy {
+    inset: auto 0% 0% auto;
+  }
+
+  .h1-2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .block_para-2 {
+    width: 90%;
+  }
+
+  .trump_about {
+    width: 90%;
+    height: auto;
+  }
+
+  .trump_cyber {
+    height: 190px;
+  }
+
+  .h1-3 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .h2-2 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .block_tokenomics-2 {
+    width: 90%;
+  }
+
+  .tokenomics_in-2 {
+    padding-bottom: 150px;
+  }
+
+  .h1-4 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .block_socials {
+    flex-flow: column;
+    width: 80%;
+  }
+
+  .socials_footer {
+    width: 100%;
+    margin: 7.5px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .logo_hero {
+    margin-top: 127px;
+  }
+
+  .h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .chara_about {
+    width: 85%;
+  }
+
+  .block_chara_about {
+    margin-top: -13px;
+  }
+
+  .bullet, .bullet3 {
+    height: 10px;
+  }
+
+  .h2 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .furie_space {
+    height: 200px;
+    left: 20px;
+  }
+
+  .trump_space {
+    height: 200px;
+    right: 20px;
+  }
+
+  .ca {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .andy {
+    height: 300px;
+  }
+
+  .flash_left, .flash_right {
+    display: none;
+  }
+
+  .mobile_link, .mobile_link.x {
+    width: 130px;
+  }
+
+  .image {
+    width: 90%;
+    height: auto;
+  }
+
+  .h1-2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .para {
+    font-size: 19px;
+  }
+
+  .trump_cyber {
+    height: 140px;
+  }
+
+  .h1-3 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .h2-2 {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .grass_tokenomics {
+    height: 50px;
+  }
+
+  .h1-4 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .block_trum {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+@font-face {
+  font-family: 'Olive Days';
+  src: url('../fonts/Olive-Days.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
