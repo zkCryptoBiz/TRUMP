@@ -17,6 +17,12 @@
   position: relative;
 }
 
+.container_aboutsol{
+display: flex; 
+align-items: center; 
+gap: 20px; 
+}
+
 .clouds {
   opacity: .6;
   justify-content: flex-start;
