@@ -72,11 +72,14 @@ gap: 20px;
   position: absolute;
   inset: 0% auto auto;
 }
-.flag_aboutsol{
+.flag_aboutsol_left{
   width: 300px; 
   margin-right: 20px;
 }
-
+.flag_aboutsol_right{
+  width: 300px; 
+  margin-left: 20px;
+}
 .section_about {
   background-color: #8ae3ff;
   flex-flow: column;
