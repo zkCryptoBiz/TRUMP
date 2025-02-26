@@ -74,11 +74,11 @@ gap: 10px;
 }
 .flag_aboutsol_left{
   width: 300px; 
-  margin-right: 20px;
+  margin-right: auto;
 }
 .flag_aboutsol_right{
   width: 300px; 
-  margin-left: 20px;
+  margin-left: 70px;
 }
 .section_about {
   background-color: #8ae3ff;
