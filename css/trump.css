@@ -66,6 +66,12 @@
   position: absolute;
   inset: 0% auto auto;
 }
+.flag_aboutsol{
+  margin-left:0%;
+  position: relative;
+  height: auto;
+  display: flex;
+}
 
 .section_about {
   background-color: #8ae3ff;
